@@ -2,12 +2,11 @@
 
 - 🦠 Malware Analysis
 - 🔍 Reverse Engineering
-- 📱  Mobile Security
+- 📱 Mobile Security
 - 🌐 Web & API Security
 - 🔐 Encryption
 - 🧩 Hooking
 - 💻 Secure Coding (OWASP)
-- ⚙️ DevSecOps
 
 ## 🦠 Malware Analysis : (Examining)
 
@@ -26,7 +25,32 @@
 
 ## 🌐 Web & API Security : 
 
-- 
+- It's a set of practices and technologies used to protect websites, web applications, and APIs from attacks.
+- Focuses on proctecting data, preventing unauthorised access, blocking common attacks, protecting communication between services.
 
+## 🔐 Encryption : 
 
+- Encryption is the process of converting information into a coded form so only authorised person can read it.
+- Symmetric Encryption uses one key for both. example : AES
+- Asymmetric Encryption uses  two different keys example : RSA, ECC.
+
+## 🧩 Hooking :
+
+- Hooking is a technique used to intercept, monitor and modify the function calls, messages or events in a program.
+- Legitimate purposes: Debugging, Monitoring, adding features. Malicious purposes : Keyloggers, API hooking to steal credentials
+
+## 💻 Secure Coding (OWASP) : 
+
+- The practise of writing software in a way that prevents vulnerabilities and protects against attacks.
+- OWASP (Open Web Application Security Project) is a nonprofit organization that focuses on web application security.
+1. Broken Access Control
+2. Cryptographic Failures
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable Components
+7. Identification & Authentication Failures
+8. Software and Data Integrity Failures
+9. Security Logging and Monitoring Failures
+10. Server-Side Request Forgery (SSRF)  
 
