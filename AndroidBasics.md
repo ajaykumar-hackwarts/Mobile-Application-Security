@@ -26,9 +26,9 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 
 ## 5. Intent : 
 
-- Intent : It is a communication mechanism (bridge) that carries information from one component to another. 
+- Intents : It is a communication mechanism (bridge) that carries information from one component to another. 
 
-- Types of Intent : 
+- Types of Intents : 
 
 1. Explicit Intent : You specify the exact component to start and this is used to send information from one activity to another in same application. 
 
