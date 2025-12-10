@@ -35,4 +35,15 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 Example : In Flipkart from choosing "view cart" button it is going to cart activity.
 
 
-2. 
+2. Implicit Intent : You did not specify the exact component instead you declare a general action and android finds a suitable component (might be within the app or another app.) to perform it.
+
+Example : You click a share button on photo and android shows a list of apps(whatsapp, gmail) to share the photo.
+
+-- Intent Filter : It's a declaration in AndroidManifest.xml which tells the android which type of intents a component(activity, service, broadcast receiver) can handle. 
+
+Example : With the same above example the list of app's manifest will have the intent filter will say that I can handle this like share the photo.
+
+
+3. Pending Intent : It's a wrapper around a regular intent that allows another app or the system to execute the intent later
+
+Example : Setting an alarm and closing the clock app and it will trigger at the time. Notification came and later when we click only it will go to the chat activity in an application.
