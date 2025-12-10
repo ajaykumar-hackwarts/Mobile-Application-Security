@@ -1,6 +1,6 @@
 Android is mobile operating system developed by google based on Linux kernel. Open-source and widely used in smartphones, tablets, TVs, and wearable devices.
 
-## Core Components : 
+# Core Components : 
 
 <table>
   <tr>
@@ -22,6 +22,17 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 </table>
 
 
-## Additional Components: 
+# Additional Components: 
 
-5. 
+## 5. Intent : 
+
+- Intent : It is a communication mechanism (bridge) that carries information from one component to another. 
+
+- Types of Intent : 
+
+1. Explicit Intent : You specify the exact component to start and this is used to send information from one activity to another in same application. 
+
+Example : In Flipkart from choosing "view cart" button it is going to cart activity.
+
+
+2. 
