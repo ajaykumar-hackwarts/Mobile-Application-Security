@@ -17,7 +17,7 @@ Android is mobile operating system developed by google based on Linux kernel. Op
   </tr>
   <tr>
     <td><strong>4. Content Providers</strong></td>
-    <td>It's a data source or library or a data store that multiple people can access. example : Contacts app provides your contact list to WhatsApp or Gmail.</td>
+    <td>It's a data source or library that multiple people can access. example : Contacts app provides your contact list to WhatsApp or Gmail.</td>
   </tr>
 </table>
 
