@@ -22,7 +22,7 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 </table>
 
 
-# Additional Components : 
+# Additional Features : 
 
 ## 5. Intent : 
 
@@ -56,7 +56,28 @@ Reusable portion of an Activity's UI a part of Activity which has its own layout
 Example : In WhatsApp Chat, Status and Call fragments are there inside the mainactivity. 
 
 
-## 7. View & View Group : 
+## 7. Content Resolver : 
+
+It's a Class in the android which acts as the bridge between your app and the content provider. Android doesn't allow an app to access some other app's database for security reason. 
+
+
+Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that cannot query contacts, media from another app
+
+Example : Share contacts, photos from contacts app and Gallery app to WhatsApp. 
+
+Key Methods : query(), insert(), update(), delete(), getType()
+
+
+## 8. Work Manager : 
+
+It is used to manage the schedule and manage the deferrable, garudnteed background tasks that need to run even after closing the application or device restarted. 
+
+Example : Syncing the data when connected to wifi, periodic cleanup of cache files, Turn on battery saver when batter reaches 20%, 
+
+Alarm doesn't comes under work manager it will comes under alarm manager because it need to be executed at the exact time. 
+
+
+## 9. View & View Group : 
 
 **View** : View is the basic building block of UI. It represents the single visual element on the screen like button, toggle switch, text, image etc.
 
@@ -75,22 +96,12 @@ Example : In WhatsApp Chat, Status and Call fragments are there inside the maina
 - **Card View** : Display as a card like layout rounded corner shadow elevation like in the shopping apps and news apps. 
 
 
-## 8. Content Resolver : 
+## 10. View Model & Live Data : 
 
-It's a Class in the android which acts as the bridge between your app and the content provider. Android doesn't allow an app to access some other app's database for security reason. 
+**View Model** : It's a class designed to store and manage UI related data in a life cycle conscious way. 
 
+Example : If a configuration change is happened like screen rotation our data will be lost without view model. With view model it is retained and gives us all the data in the UI.
 
-Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that cannot query contacts, media from another app
+**Live Data** : It's a observable data holder class which holds and notifies the UI component when that data changes. 
 
-Example : Share contacts, photos from contacts app and Gallery app to WhatsApp. 
-
-Key Methods : query(), insert(), update(), delete(), getType()
-
-
-## 9. Work Manager : 
-
-It is used to manage the schedule and manage the deferrable, garudnteed background tasks that need to run even after closing the application or device restarted. 
-
-Example : Syncing the data when connected to wifi, periodic cleanup of cache files, Turn on battery saver when batter reaches 20%, 
-
-Alarm doesn't comes under work manager it will comes under alarm manager because it need to be executed at the exact time. 
+Example : In a Chat app it holds all the list of messages and when a new message arrives it shows at the top of the list and when configuration changes(rotation) happens it will hold the data and give the data to show in the view model.
