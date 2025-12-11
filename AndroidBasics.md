@@ -49,10 +49,14 @@ Example : With the same above example the list of app's manifest will have the i
 Example : Setting an alarm and closing the clock app and it will trigger at the time. Notification came and later when we click only it will go to the chat activity in an application.
 
 
-## 6. Fragments : Reusable portion of an Activity's UI a part of Activity which has its own layout, lifecycle and logic inside the activity. 
+## 6. Fragments : 
+
+Reusable portion of an Activity's UI a part of Activity which has its own layout, lifecycle and logic inside the activity. 
 
 Example : In WhatsApp Chat, Status and Call fragments are there inside the mainactivity. 
 
 
-## 7. View & View Group : View is the basic building block of UI. It represents the single visual element on the screen like button, toggle switch, text, image etc.
+## 7. View & View Group : 
+
+View is the basic building block of UI. It represents the single visual element on the screen like button, toggle switch, text, image etc.
 
