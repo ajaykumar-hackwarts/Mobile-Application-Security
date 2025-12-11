@@ -62,9 +62,17 @@ View : View is the basic building block of UI. It represents the single visual e
 
 View Group : It is a container that holds one or more views. It's a parental layout that defines how a child views should be arranged. 
 
-- Linearlayout
-- 
-
+- Linear layout : Login Screen
+- Relative layout : Profile layout
+- Constraint Layout : Modern Layout(signup form)
+- Frame layout : Video Thumbnail with play icon at the center. 
+- Table Layout : Calcuator App
+- Grid Layout : Gallery app
+- Drawer Layout : Gmail, Spotify
+- Coordination Layout : Smart Layout that coordinate two child views like when scrolling in gmail the top app bar hides smoothly.
+- List View : Old View list contact, message list 
+- Recycler View : Uses View holder to show large list data efficiently like Instagram feed instead of showing all items in one screen it shows uses the same view when scrolling. 
+- Card View : Display as a card like layout rounded corner shadow elevation like in the shopping apps and news apps. 
 
 
 
