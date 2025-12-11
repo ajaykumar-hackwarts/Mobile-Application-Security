@@ -105,3 +105,26 @@ Example : If a configuration change is happened like screen rotation our data wi
 **Live Data** : It's a observable data holder class which holds and notifies the UI component when that data changes. 
 
 Example : In a Chat app it holds all the list of messages and when a new message arrives it shows at the top of the list and when configuration changes(rotation) happens it will hold the data and give the data to show in the view model.
+
+
+## 11. Room Database & Shared Preferences :
+
+**Room Database :**  It is used to store stuctured data locally on the device. It's a wrapper oevr SQLite with the traditional android database, but simpler, safer and more powerful.
+
+Example : Notes in notes app, contacts in contacts app, offline messages in chat app.
+
+**Shared Preferences :** It is android storage component used to save small amount of simple data in the form of key-value pairs(in contact list : Father-881092091029). Stored Permenantly and automatically loaded when app starts. 
+
+Example : Remembers the login state, theme like dark mode or light and launguage setting once is all setted and saved next time no need to remind that.
+
+
+
+## 12. Permissions Manager : 
+
+It's a component which manages, controls and monitor app permission and give access to the sensitive data(camera, location, contacts etc...) only when the user explicitly grants permissions.   
+
+Normal Permision : Non sensitive automatically granted like internet and blutooth
+
+Dangerous Permission : Sensitive permission must show pop up to user like location, camera, microphone, contacts, sms and storage. 
+
+
