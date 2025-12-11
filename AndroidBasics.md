@@ -86,3 +86,11 @@ Example : Share contacts, photos from contacts app and Gallery app to WhatsApp.
 
 Key Methods : query(), insert(), update(), delete(), getType()
 
+
+## 9. Work Manager : 
+
+It is used to manage the schedule and manage the deferrable, garudnteed background tasks that need to run even after closing the application or device restarted. 
+
+Example : Syncing the data when connected to wifi, periodic cleanup of cache files, Turn on battery saver when batter reaches 20%, 
+
+Alarm doesn't comes under work manager it will comes under alarm manager because it need to be executed at the exact time. 
