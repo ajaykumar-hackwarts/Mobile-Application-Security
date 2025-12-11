@@ -58,5 +58,14 @@ Example : In WhatsApp Chat, Status and Call fragments are there inside the maina
 
 ## 7. View & View Group : 
 
-View is the basic building block of UI. It represents the single visual element on the screen like button, toggle switch, text, image etc.
+View : View is the basic building block of UI. It represents the single visual element on the screen like button, toggle switch, text, image etc.
+
+View Group : It is a container that holds one or more views. It's a parental layout that defines how a child views should be arranged. 
+
+- Linearlayout
+- 
+
+
+
+
 
