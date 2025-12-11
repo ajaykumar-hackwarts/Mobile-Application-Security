@@ -62,7 +62,7 @@ View : View is the basic building block of UI. It represents the single visual e
 
 View Group : It is a container that holds one or more views. It's a parental layout that defines how a child views should be arranged. 
 
-- Linear layout : Login Screen
+- *Linear layout* : Login Screen
 - Relative layout : Profile layout
 - Constraint Layout : Modern Layout(signup form)
 - Frame layout : Video Thumbnail with play icon at the center. 
