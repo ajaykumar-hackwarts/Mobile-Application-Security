@@ -31,6 +31,7 @@ DCL(Dynamic Code Loading) Backdoor :
 
 
 
+
 3. Trojan/Riskware
 4. Spyware
 5. Privilege_escalation
