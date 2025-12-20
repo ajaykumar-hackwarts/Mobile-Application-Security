@@ -94,7 +94,7 @@ CHANGE_WIFI_STATE
 Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related messages and using RECEIVE_SMS it can see all the sms before users sees it and BIND_NOTIFICATION_LISTENER can read and hide the notification and using the CHANGE_WIFI_STATE it will change the network settting to mobile instead of WIFI as to subscribe to premium calls it should have the mobile network. 
 
 
-7. Rooting : Use to gain access to the root system of the Operating system. 
+## 8. Rooting : Use to gain access to the root system of the Operating system. 
 
 Legitimate purpose : Remove Bloatware (pre-installed apps that can't be uninstalled easily), Personalisation, Installing custom ROM. 
 
