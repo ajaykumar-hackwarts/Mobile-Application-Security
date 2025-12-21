@@ -96,8 +96,29 @@ Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related
 
 ## 8. Rooting : 
 
-- Use to gain access to the root system of the Operating system. 
+-  Use to gain access to the root system of the Operating system. The process to get to the root system of the android is called rooting.
+-  After got to the root of the android system we can do whatever we want in the system. 
 
-Legitimate purpose : Remove Bloatware (pre-installed apps that can't be uninstalled easily), Personalisation, Installing custom ROM. 
+Andorid usually has the secured OS and it has many secure protected layers to prevent from the security breach before rooting once u have rooted the device the security layers won't be available to you so system can be easily compromised.   
 
-Threat : App gets the admin power so they can take the full control of the system. 
+Threats : After rooting u can install any third party application without the security so it can cause danger to the user.  
+
+Legitimate Purpose : Customisation & personalisation of the OS like improve the performance to battery, processor etc by installing rooted apps from play store, Un-install Bloatware apps.
+
+How : 
+
+Incrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fastboot. 
+
+- Enable USB debugging to allow programmed apps from the PC to Mobile.
+- Became a developer in the Mobile by tapping 7 times on the build number. 
+- Backup your data in the mobile to a cloud service or to the mobile other storage.
+- Enable OEM unlocking this will unlock the bootloader(low level prorgram that initializes hardware and securely loads the OS when the device is on)
+- Put the device in the fast boot mode by shutdowning the device first then long presssing on the volume down or up and power button.
+- Connect the mobile to PC via USB and open ADB and fastboot terminal and again the mobile it will ask for unlock bootloader and unlock that.
+- Download and install MagiskApp(rooting application)
+- Download a android 15 firmware as a zip and extract boot.img from that.
+- From the Magisk application click on the select and pacth a file and choose these boot.img file and click let's go this will take some time and device will be rooted.
+- And we can install the root checker application and check that the device is rooted or not. 
+
+
+
