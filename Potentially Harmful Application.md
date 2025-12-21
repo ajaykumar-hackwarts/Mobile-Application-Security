@@ -114,11 +114,12 @@ Incrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fa
 - Backup your data in the mobile to a cloud service or to the mobile other storage.
 - Enable OEM unlocking this will unlock the bootloader(low level prorgram that initializes hardware and securely loads the OS when the device is on)
 - Put the device in the fast boot mode by shutdowning the device first then long presssing on the volume down or up and power button.
-- Connect the mobile to PC via USB and open ADB and fastboot terminal and again the mobile it will ask for unlock bootloader and unlock that.
 - Download and install MagiskApp(rooting application)
 - Download a android 15 firmware as a zip and extract boot.img from that.
-- From the Magisk application click on the select and pacth a file and choose these boot.img file and click let's go this will take some time and device will be rooted.
-- And we can install the root checker application and check that the device is rooted or not. 
+- From the Magisk application click on the select and pacth a file and choose these boot.img file and click let's go this will take some time and an output file is written in the device named magisk_patched-27398127398
+- Connect the Phone to PC and move the newly written folder to the adb folder and put the device to fastboot mode.
+- Open Adb terminal and type fastboot flash boot magisk file name.
+- Try to restart the device and check to root in the rooterchecker application. 
 
 
 
