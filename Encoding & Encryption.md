@@ -21,13 +21,16 @@
 
 ## Types of Encryption :
 
-**Symmetric Encryption** :  Uses same key for encrypting and decrypting the data. Faster and commonly used for large amount of data. Example : AES(Advanced Encryption Standards)
+**Symmetric Encryption** :  Uses same key for encrypting and decrypting the data. Faster and commonly used for large amount of data. 
 
-1. AES (Advanced Encryption Standard) : 
+1. AES (Advanced Encryption Standard) : Modern & Very secure encryption. Uses IV(Initializing Vector) for mode like cbc, cfb, ofb, ctr and ebc doesn't need IV and a key to encrypt
+2. DES (Data Encryption Standard) : Older encryption standard
+3. 3DES(Triple DES) : Encrypts 3 times using DES make it stronger.
+4. Blowfish & Twofish
 
 **Asymmetric Encryption** : Uses two different key for encrypting and decrypting the data. Public key to encrypt and private key to decrypt. Slower but more secure. Example : RSA(Rivest–Shamir–Adleman).
 
-
+1. 
 
 
 
