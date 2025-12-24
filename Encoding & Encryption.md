@@ -28,9 +28,9 @@
 3. 3DES(Triple DES) : Encrypts 3 times using DES make it stronger.
 4. Blowfish & Twofish
 
-**Asymmetric Encryption** : Uses two different key for encrypting and decrypting the data. Public key to encrypt and private key to decrypt. Slower but more secure. Example : RSA(Rivest–Shamir–Adleman).
+**Asymmetric Encryption** : Uses two different key for encrypting and decrypting the data. Public key to encrypt and private key to decrypt. Slower but more secure.
 
-1. 
+1. RSA(Rivest–Shamir–Adleman) : Widely used for secure data transmission. It is used for encrypting small messages or keys
 
 
 
