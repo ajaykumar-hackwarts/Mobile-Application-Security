@@ -1,1 +1,1 @@
-Frida 
+Frida is a dynamic 
