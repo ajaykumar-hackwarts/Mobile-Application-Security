@@ -15,7 +15,19 @@ Hooking : Intercepting a program calls to alter its behaviour or monitor activit
 
 After running the we can do many things like 
 
-1. Injecting scripts :
+
+## Info about the apps :
+
+frida-ps -Uai 
+
+frida-ps: Shows you the apps.
+
+-U: Looks at devices connected by USB.
+-a: Shows all apps, not just yours.
+-i: Gives you more info like the app’s ID and name
+
+
+## Injecting scripts :
 
 - Frida -U -f app_package_name -l script.js
 - Frida -U -n app_package_name -l script.js
@@ -24,9 +36,22 @@ Frida - tool
 - -U    - USB/emulator
 - -f    - start the app and attach
 - -n    - attach on the running app
-- -l    - load the script  
+- -l    - load the script
 
-2. Decryption :
+## Printing : 
+
+Java.perform(function() {
+
+ console.log(‘Hello world’);
+
+     // Do your magic here 
+});
+
+## 
+
+
+
+Decryption :
 
 Java.perform(function() {                  
 var decrypt = Java.use('PuGMAu.QumH');      
@@ -44,5 +69,7 @@ console.log("Decrypted :", decrypt.TUDsyZfyyu("MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc
 - .log -> write
 - TUDsyZfyyu -> method name
 - "MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc=\n" -> 2 parameters
+
+
 
  
