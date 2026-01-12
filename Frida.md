@@ -114,6 +114,39 @@ onMatch: It's callback method that runs each existing instance in the specified 
 onComplete : It perform as a clean up action after the Java.choose has finished. 
 
 
+## Passing object as an arguement : 
+
+Java.performNow(function() {
+  
+   Java.choose('packagename.classname', {
+  
+  onMatch: function(instance) {
+  
+  console.log("Instance found");
+
+  var new = Java.use("packagename.newclassname");
+  
+  var new_obj  = checker.$new();   
+  
+   new_obj.x.value = 1337; 
+   
+   new_obj.y.value = 1200; 
+   
+   instance.methodname(new_obj);  
+
+  },
+        
+  onComplete: function() {}
+  
+  });
+  
+});
+
+newclassname : new class name
+
+new_obj : new object
+
+
 ## Hooking : 
 
 Java.perform(function() {
