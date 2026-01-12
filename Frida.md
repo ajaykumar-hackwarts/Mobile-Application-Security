@@ -13,8 +13,9 @@ Steps to run the Frida server.
 
 Hooking : Intercepting a program calls to alter its behaviour or monitor activity.  
 
-After running the we can do many things like 
+Invoking : Calling a method so the method will be executed. 
 
+After running the we can do many things like 
 
 ## Info about the apps :
 
@@ -46,6 +47,72 @@ Java.perform(function() {
 
      // Do your magic here 
 });
+
+## Invoking : 
+
+Java.perform(function() {
+
+var classname = Java.use("packagename.classname");
+
+classname.staticmethod();
+ 
+});
+
+## Changing the value of static variable : 
+
+Java.perform(function() {
+
+var classname = Java.use("packagename.classname");
+
+classname.variable.value = (value);
+ 
+});
+
+## Invoking a method on the Non static class : 
+
+Since it is a non-static class we should create an object to use it. 
+
+Java.perform(function() {
+    var classname = Java.use("packagename.classname");
+    var obj = classname.$new();
+    var res = obj.methodname();
+    console.log("Flag" + res);
+});
+
+obj = object(new instance) 
+
+$new() = keyword to create new object. 
+
+
+## Invoking Methods on an Existing Instance : 
+
+When an android application starts the system creates an instance of the mainactivity.
+
+
+Java.performNow(function() {
+
+ Java.choose('packagename.classname', {
+
+   onMatch: function(instance) {
+
+   console.log(instance found);
+   
+   instance.methodname();
+      
+  },
+  
+  onComplete: function() {}
+    
+  });
+  
+});
+
+Java.performNow : Used to run the code immediately after the VM is started. 
+
+onMatch: It's callback method that runs each existing instance in the specified class. 
+
+onComplete : It perform as a clean up action after the Java.choose has finished. 
+
 
 ## Hooking : 
 
