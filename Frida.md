@@ -50,12 +50,19 @@ Java.perform(function() {
 ## Hooking : 
 
 Java.perform(function() {
+
 var.cls = Java.use("class.name");
+
 cls.method.name.implementation = function(){
+
 var value = this.method.name;
+
 console.log("The value" +value);
+
 return value;
+
 };
+
 });
 
 implementation : Keyword used to replace the java code. 
