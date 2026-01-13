@@ -151,11 +151,11 @@ new_obj : new object
 
 Java.perform(function() {
 
-var.cls = Java.use("class.name");
+var.cls = Java.use("packagename.classname");
 
-cls.method.name.implementation = function(){
+cls.methodname.implementation = function(){
 
-var value = this.method.name;
+var value = this.methodname;
 
 console.log("The value" +value);
 
@@ -166,6 +166,21 @@ return value;
 });
 
 implementation : Keyword used to replace the java code. 
+
+### Native Code : 
+
+It is a C or C++ code which can be used in the Java application. In android we can use the native code by the NDK(Native Development Kit). 
+
+### Why native code ? 
+
+Java source code --> Bytecode(Using Compiler) --> Machince Code(JVM) --> CPU   : Portable, safe, optimized, independent. But not faster than native code. 
+
+C/C++ source code --> Machince Code (Using Compiler) -->  CPU   : faster than java code. 
+
+Native code doesn't need virtual machine to convert source code to machine code hence it is faster that java code and it is very useful in the  low-level access such as video/audio processing, graphics, encryption etc. 
+
+
+
 
 Decryption :
 
