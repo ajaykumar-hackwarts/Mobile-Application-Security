@@ -95,12 +95,12 @@ Example : With the same above example the list of app's manifest will have the i
 
 3. Pending Intent : It's a wrapper around a regular intent that allows another app or the system to execute the intent later
 
-Example : Setting an alarm and closing the clock app and it will trigger at the time. Notification came and later when we click only it will go to the chat activity in an application.
+ Example : Setting an alarm and closing the clock app and it will trigger at the time. Notification came before itself but later only when we click only it will go to the chat activity in an application.
 
 
 ## 6. Fragments : 
 
-Reusable portion of an Activity's UI a part of Activity which has its own layout, lifecycle and logic inside the activity. 
+Reusable portion of an Activity's UI, a part of Activity which has its own layout, lifecycle and logic inside the activity. 
 
 Example : In WhatsApp Chat, Status and Call fragments are there inside the mainactivity. 
 
@@ -110,7 +110,7 @@ Example : In WhatsApp Chat, Status and Call fragments are there inside the maina
 It's a Class in the android which acts as the bridge between your app and the content provider. Android doesn't allow an app to access some other app's database for security reason. 
 
 
-Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that cannot query contacts, media from another app
+Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that content provider can't query contacts, media from another app
 
 Example : Share contacts, photos from contacts app and Gallery app to WhatsApp. 
 
@@ -119,7 +119,7 @@ Key Methods : query(), insert(), update(), delete(), getType()
 
 ## 8. Work Manager : 
 
-It is used to manage the schedule and manage the deferrable, garudnteed background tasks that need to run even after closing the application or device restarted. 
+It is used to manage the schedule, deferrable, garunteed background tasks that need to run even after closing the application or device restarted. 
 
 Example : Syncing the data when connected to wifi, periodic cleanup of cache files, Turn on battery saver when batter reaches 20%, 
 
