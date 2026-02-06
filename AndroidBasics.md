@@ -45,8 +45,6 @@ onDestroy()  ← (App closed completely)
 
 </p>
 
-# Android Execution Flow : 
-
 
  # Android App Lifecycle with DCL
 
