@@ -99,7 +99,7 @@ Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related
 -  Use to gain access to the root system of the Operating system. The process to get to the root system of the android is called rooting.
 -  After got to the root of the android system we can do whatever we want in the system. 
 
-Andorid usually has the secured OS and it has many secure protected layers to prevent from the security breach before rooting once u have rooted the device the security layers won't be available to you so system can be easily compromised.   
+Android usually has the secured OS and it has many secure protected layers to prevent from the security breach before rooting once u have rooted the device the security layers won't be available to you so system can be easily compromised.   
 
 Threats : After rooting u can install any third party application without the security so it can cause danger to the user.  
 
