@@ -147,7 +147,7 @@ Alarm doesn't comes under work manager it will comes under alarm manager because
 
 ## 10. View Model & Live Data : 
 
-**View Model** : It's a class designed to store and manage UI related data in a life cycle conscious way. 
+**View Model** : It's a class designed to store and manage UI related data in a life cycle consicious way. 
 
 Example : If a configuration change is happened like screen rotation our data will be lost without view model. With view model it is retained and gives us all the data in the UI.
 
@@ -158,7 +158,7 @@ Example : In a Chat app it holds all the list of messages and when a new message
 
 ## 11. Room Database & Shared Preferences :
 
-**Room Database :**  It is used to store stuctured data locally on the device. It's a wrapper oevr SQLite with the traditional android database, but simpler, safer and more powerful.
+**Room Database :**  It is used to store stuctured data locally on the device. It's a wrapper over SQLite with the traditional android database, but simpler, safer and more powerful.
 
 Example : Notes in notes app, contacts in contacts app, offline messages in chat app.
 
