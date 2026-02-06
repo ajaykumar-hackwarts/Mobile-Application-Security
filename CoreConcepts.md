@@ -6,7 +6,6 @@
 - 🌐 Web & API Security
 - 🔐 Encryption
 - 🧩 Hooking
-- 💻 Secure Coding (OWASP)
 
 ## 🦠 Malware Analysis : (Examining)
 
