@@ -10,7 +10,7 @@
 
 ## 🦠 Malware Analysis : (Examining)
 
-- Software specifically designed to disrupt, damage, or gain unauthorized access to computers, networks, or data. example : spyware, ransomware, trojan etc. 
+- Malware : Software specifically designed to disrupt, damage, or gain unauthorized access to computers, networks, or data. example : spyware, ransomware, trojan etc. 
 - The process of examining malicious software to understand it's behaviour and impact on the system. Example : Static & Dynamic Analysis. 
 
 ## 🔍 Reverse Engineering : 
@@ -39,18 +39,4 @@
 - Hooking is a technique used to intercept, monitor and modify the function calls, messages or events in a program.
 - Legitimate purposes: Debugging, Monitoring, adding features. Malicious purposes : Keyloggers, API hooking to steal credentials
 
-## 💻 Secure Coding (OWASP) : 
-
-- The practise of writing software in a way that prevents vulnerabilities and protects against attacks.
-- OWASP (Open Web Application Security Project) is a nonprofit organization that focuses on web application security.
-1. Broken Access Control
-2. Cryptographic Failures
-3. Injection
-4. Insecure Design
-5. Security Misconfiguration
-6. Vulnerable Components
-7. Identification & Authentication Failures
-8. Software and Data Integrity Failures
-9. Security Logging and Monitoring Failures
-10. Server-Side Request Forgery (SSRF)  
 
