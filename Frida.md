@@ -73,10 +73,14 @@ classname.variable.value = (value);
 Since it is a non-static class we should create an object to use it. 
 
 Java.perform(function() {
-    var classname = Java.use("packagename.classname");
-    var obj = classname.$new();
-    var res = obj.methodname();
-    console.log("Flag" + res);
+
+   var classname = Java.use("packagename.classname");
+    
+   var obj = classname.$new();
+   
+   var res = obj.methodname();
+   
+   console.log("Flag" + res);
 });
 
 obj = object(new instance) 
