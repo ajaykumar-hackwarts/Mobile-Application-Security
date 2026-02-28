@@ -5,11 +5,11 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 <table>
   <tr>
     <td><strong>1. Activities</strong></td>
-    <td>Represents a single screen in the UI example : login screen, setting screen etc.</td>
+    <td>Represents a single screen in the UI. Example : login screen, setting screen etc.</td>
   </tr>
   <tr>
     <td><strong>2. Services</strong></td>
-    <td>Run in the background without UI example : music playing in background when we using another application.</td>
+    <td>Run in the background without UI. Example : music playing in background when we using another application.</td>
   </tr>
   <tr>
     <td><strong>3. Broad Receivers</strong></td>
@@ -88,7 +88,7 @@ Example : In Flipkart from choosing "view cart" button it is going to cart activ
 
 Example : You click a share button on photo and android shows a list of apps(whatsapp, gmail) to share the photo.
 
-- Intent Filter : It's a declaration in AndroidManifest.xml which tells the android which type of intents a component(activity, service, broadcast receiver) can handle. 
+- Intent Filter : It's a declaration in AndroidManifest.xml in each app which tells the android which type of intents a component(activity, service, broadcast receiver) can handle. 
 
 Example : With the same above example the list of app's manifest will have the intent filter will say that I can handle this like share the photo.
 
