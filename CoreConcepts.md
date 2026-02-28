@@ -9,7 +9,7 @@
 
 ## 🦠 Malware Analysis : (Examining)
 
-- Malware : Software specifically designed to disrupt, damage, or gain unauthorized access to computers, networks, or data. example : spyware, ransomware, trojan etc. 
+- Malware : Software specifically designed to disrupt, damage or gain unauthorized access to computers, networks, or data. example : spyware, ransomware, trojan etc. 
 - The process of examining malicious software to understand it's behaviour and impact on the system. Example : Static & Dynamic Analysis. 
 
 ## 🔍 Reverse Engineering : 
