@@ -107,7 +107,7 @@ Legitimate Purpose : Customisation & personalisation of the OS like improve the 
 
 How : 
 
-Incrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fastboot. 
+Ingrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fastboot. 
 
 - Enable USB debugging to allow programmed apps from the PC to Mobile.
 - Became a developer in the Mobile by tapping 7 times on the build number. 
