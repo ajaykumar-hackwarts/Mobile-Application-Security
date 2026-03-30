@@ -109,6 +109,7 @@ How :
 
 Ingrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fastboot. 
 
+- Connect PC to Mobile.
 - Enable USB debugging to allow programmed apps from the PC to Mobile.
 - Became a developer in the Mobile by tapping 7 times on the build number. 
 - Backup your data in the mobile to a cloud service or to the mobile other storage.
@@ -116,7 +117,7 @@ Ingrediants : Mobile with OS 15 or below, USB and a PC with installed ADB and fa
 - Put the device in the fast boot mode by shutdowning the device first then long presssing on the volume down or up and power button.
 - Download and install MagiskApp(rooting application)
 - Download a android 15 firmware as a zip and extract boot.img from that.
-- From the Magisk application click on the select and pacth a file and choose these boot.img file and click let's go this will take some time and an output file is written in the device named magisk_patched-27398127398
+- From the Magisk application click on the select and patch a file and choose these boot.img file and click let's go this will take some time and an output file is written in the device named magisk_patched-27398127398
 - Connect the Phone to PC and move the newly written folder to the adb folder and put the device to fastboot mode.
 - Open Adb terminal and type fastboot flash boot magisk file name.
 - Try to restart the device and check to root in the rooterchecker application. 
