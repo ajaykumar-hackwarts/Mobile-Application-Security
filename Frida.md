@@ -23,9 +23,9 @@ frida-ps -Uai
 
 frida-ps: Shows you the apps.
 
--U: Looks at devices connected by USB.
--a: Shows all apps, not just yours.
--i: Gives you more info like the app’s ID and name
+- U: Looks at devices connected by USB.
+- a: Shows all apps, not just yours.
+- i: Gives you more info like the app’s ID and name
 
 
 ## Injecting scripts :
