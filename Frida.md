@@ -196,7 +196,7 @@ console.log("Decrypted :", decrypt.TUDsyZfyyu("MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc
 - Java - Works with the java's code 
 - .perform -> run the code after all java classes is loaded 
 - function () -> keyword to run the function.  
-- var -> keyword to create varible 
+- var -> keyword to create variable 
 - decrypt -> variable name 
 - Java.use -> get access to the java class so it can hook the method, 
 - PuGMAu.QumH -> class name
