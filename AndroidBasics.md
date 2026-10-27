@@ -113,7 +113,7 @@ It's a Class in the android which acts as the bridge between your app and the co
 
 Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that content provider can't query contacts, media from another app
 
-Example : Share contacts, photos from contacts app and Gallery app to WhatsApp. 
+Example : Share contacts & photos from contacts and gallery app to WhatsApp. 
 
 Key Methods : query(), insert(), update(), delete(), getType()
 
