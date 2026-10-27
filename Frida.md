@@ -17,7 +17,7 @@ Invoking : Calling a method so the method will be executed.
 
 After running the we can do many things like 
 
-## Info about the apps :
+## 1. Info about the apps :
 
 frida-ps -Uai 
 
@@ -28,7 +28,7 @@ frida-ps: Shows you the apps.
 - i: Gives you more info like the app’s ID and name
 
 
-## Injecting scripts :
+## 2. Injecting scripts :
 
 - Frida -U -f app_package_name -l script.js
 - Frida -U -n app_package_name -l script.js
@@ -39,7 +39,7 @@ Frida - tool
 - -n    - attach on the running app
 - -l    - load the script
 
-## Printing : 
+## 3. Printing : 
 
 Java.perform(function() {
 
@@ -48,7 +48,7 @@ Java.perform(function() {
      // Do your magic here 
 });
 
-## Invoking : 
+## 4. Invoking : 
 
 Java.perform(function() {
 
@@ -58,7 +58,7 @@ classname.staticmethod();
  
 });
 
-## Changing the value of static variable : 
+## 5. Changing the value of static variable : 
 
 Java.perform(function() {
 
@@ -68,7 +68,7 @@ classname.variable.value = (value);
  
 });
 
-## Invoking a method on the Non static class : 
+## 6. Invoking a method on the Non static class : 
 
 Since it is a non-static class we should create an object to use it. 
 
@@ -88,7 +88,7 @@ obj = object(new instance)
 $new() = keyword to create new object. 
 
 
-## Invoking Methods on an Existing Instance : 
+## 7. Invoking Methods on an Existing Instance : 
 
 When an android application starts the system creates an instance of the mainactivity.
 
@@ -118,7 +118,7 @@ onMatch: It's callback method that runs each existing instance in the specified 
 onComplete : It perform as a clean up action after the Java.choose has finished. 
 
 
-## Passing object as an arguement : 
+## 8. Passing object as an argument : 
 
 Java.performNow(function() {
   
@@ -151,7 +151,7 @@ newclassname : new class name
 new_obj : new object
 
 
-## Hooking : 
+## 9. Hooking : 
 
 Java.perform(function() {
 
