@@ -70,7 +70,7 @@ MMP cloaking :  App behaves differently for MMP tracking and it behaves differen
 
 ## 6. Privilege_escalation : 
 
-- Code which gain the unortherised access and takes over the full control of the device. 
+- Code which gain the unauthorised access and takes over the full control of the device. 
 
 To do Privilege_escalation app should have these permissions. 
 
