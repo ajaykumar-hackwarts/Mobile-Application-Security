@@ -39,7 +39,7 @@ These remote execution connection are of four types
 
 ## 3. Trojan :     
 
-Application which pretends to be a legitimate application but it secretly perform harmful activity after installation.
+Application which pretends to be a legitimate application but it secretly performs harmful activity after installation.
 
 Red falgs : 
 
