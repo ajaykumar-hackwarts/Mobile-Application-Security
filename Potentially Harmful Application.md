@@ -57,7 +57,7 @@ Server Side Cloaking : The server hides it's real content or functionality and o
 - IP-Based/Location-Based Cloaking : Shows different content on the application depending on the vistor's IP address and the physical location.
 - Time-Based Cloaking : Shows different content based on the different time example : dark mode in instagram.
   
-MMP : Third party analytics platform used by the mobile apps to track, measure and attribute installs. It tells the developer from which ad or campaign the user has installs the app and after installing what did he do first. Popular MMPs are Appsflyer, Adjust, Branch, Singular and Kochava. 
+MMP(Mobile Measurement Platform) : Third party analytics platform used by the mobile apps to track, measure and attribute installs. It tells the developer from which ad or campaign the user has installs the app and after installing what did he do first. Popular MMPs are Appsflyer, Adjust, Branch, Singular and Kochava. 
 
 MMP cloaking :  App behaves differently for MMP tracking and it behaves differently for the real users.
 
