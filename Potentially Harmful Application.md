@@ -101,7 +101,7 @@ Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related
 
 Android usually has the secured OS and it has many secure protected layers to prevent from the security breach. Once you have rooted the device the security layers won't be available to you so system can be easily compromised.   
 
-Threats : After rooting u can install any third party application without the security so it can cause danger to the user.  
+Threats : After rooting we can install any third party application without the security so it can cause danger to the user.  
 
 Legitimate Purpose : Customisation & personalisation of the OS like improve the performance to battery, processor etc by installing rooted apps from play store, Un-install Bloatware apps.
 
