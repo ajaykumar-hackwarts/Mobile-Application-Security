@@ -12,7 +12,7 @@ Android is mobile operating system developed by google based on Linux kernel. Op
     <td>Run in the background without UI. Example : music playing in background when we using another application.</td>
   </tr>
   <tr>
-    <td><strong>3. Broad Receivers</strong></td>
+    <td><strong>3. Broadcast Receivers</strong></td>
     <td>It's a notification system it triggers when an event is happened. example : alerts your phone when battery is down, receives a text message triggers a notification.</td>
   </tr>
   <tr>
