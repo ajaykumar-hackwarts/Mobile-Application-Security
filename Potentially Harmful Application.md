@@ -74,9 +74,9 @@ MMP cloaking :  App behaves differently for MMP tracking and it behaves differen
 
 To do Privilege_escalation app should have these permissions. 
 
-BIND_DEVICE_ADMIN
-SYSTEM_ALERT_WINDOW  
-WRITE_EXTERNAL_STORAGE
+BIND_DEVICE_ADMIN,
+SYSTEM_ALERT_WINDOW,  
+WRITE_EXTERNAL_STORAGE,
 BIND_ACCESSIBILITY_SERVICE
 
 It will have the admin permission and tried to lock the user and reset the password and perform some malicious action like take over the complete device. 
@@ -86,9 +86,9 @@ It will have the admin permission and tried to lock the user and reset the passw
 
 - Code which subscribes to the paid services or purchases without the users permission. 
 
-READ_SMS
-RECEIVE_SMS
-BIND_NOTIFICATION_LISTENER
+READ_SMS,
+RECEIVE_SMS,
+BIND_NOTIFICATION_LISTENER,
 CHANGE_WIFI_STATE 
 
 Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related messages and using RECEIVE_SMS it can see all the sms before users sees it and BIND_NOTIFICATION_LISTENER can read and hide the notification and using the CHANGE_WIFI_STATE it will change the network settting to mobile instead of WIFI as to subscribe to premium calls it should have the mobile network. 
