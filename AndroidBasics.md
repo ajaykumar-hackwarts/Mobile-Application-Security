@@ -73,6 +73,7 @@ ART Execution (DEX → Machine Code)
 
 # Additional Features : 
 
+
 ## 5. Intent : 
 
 - Intents : It is a communication mechanism (bridge) that carries information from one component to another. 
