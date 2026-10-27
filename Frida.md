@@ -200,7 +200,7 @@ console.log("Decrypted :", decrypt.TUDsyZfyyu("MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc
 - decrypt -> variable name 
 - Java.use -> get access to the java class so it can hook the method, 
 - PuGMAu.QumH -> class name
-- console -> outpur screen
+- console -> output screen
 - .log -> write
 - TUDsyZfyyu -> method name
 - "MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc=\n" -> 2 parameters
