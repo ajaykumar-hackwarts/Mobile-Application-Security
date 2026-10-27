@@ -79,7 +79,7 @@ SYSTEM_ALERT_WINDOW,
 WRITE_EXTERNAL_STORAGE,
 BIND_ACCESSIBILITY_SERVICE
 
-It will have the admin permission and tried to lock the user and reset the password and perform some malicious action like take over the complete device. 
+It will have the admin permission and tried to lock the user and reset the password and perform some malicious action like take control over the device completely. 
 
 
 ## 7. Toll fraud : 
