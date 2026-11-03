@@ -29,8 +29,12 @@
 - Ghidra : Open source tool developed by NSA to read/deobfuscate raw C/C++ native code (like .so files) when standard Java decompilers can't reach it.
 
 
-# Packing  : 
+## Packing  : 
 
 - Wrapping an app's code inside an encrypted shell to completely hide it from view until the app actually runs. Tools like Progaurd/R8, Dexgaurd can be used for this. 
 
-- 
+## Unpacking : 
+
+- To process of removing or bypassing an app's protective encryption shell to reveal and extract the hidden original code.
+
+**ApkTool** : Apktool was created by Ryszard Wiśniewski. It is an open-source tool used to unpack app's configuration files and resources into readable text. 
