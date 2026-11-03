@@ -27,4 +27,10 @@ Review steps :-
 
 4. If it is interesting proceed with 3 FP and 3 Unreviewed apps.
 
-5. If it all exists next is to check for nsr viability using the PLX query. 
+5. If it all exists next step is to check for nsr viability using the PLX query.
+
+ a. if PLX query catches fewer than 20 PHA mark "No NSR needed, bulk action taken"
+
+ b. Else mark “A new NSR will be created for this cluster”
+
+6. 
