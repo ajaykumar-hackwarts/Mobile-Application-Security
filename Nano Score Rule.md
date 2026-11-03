@@ -1,3 +1,7 @@
+# NSR(Nano Score Rule) :-
+
+
+
 Two type of Cluster 
 
 APk clustser : App name unreviewd, TP, FP - 9, 
