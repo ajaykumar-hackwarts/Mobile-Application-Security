@@ -2,15 +2,13 @@
 
 ## 1. Phishing : 
 
-- 
+- Application pretends/impersonates to be a legitimate trusted, popular website or application and steals the login credentials, financial details and incoming sms like otp etc...
 
-
-
-
+Example : Fake(Banking, Government ID, Trading) applications. 
 
 ## 2. Backdoor : 
 
-- Code that executes the unwanted, remotely controlled code in the device and do malicious activity inside that at the install time.
+- Application that executes the unwanted, remotely controlled code in the device and do malicious activity inside that at the install time.
 
 RAT(Remote Access Trojan) Backdoor : 
 
@@ -46,7 +44,7 @@ Red falgs :
 
 ## 5. Privilege_escalation : 
 
-- Code which gain the unauthorised access and takes over the full control of the device. 
+- Applications that break the app sandbox, gain elevated privileges and take over full control of the device
 
 To do Privilege_escalation app should have these permissions. 
 
@@ -60,9 +58,9 @@ It will have the admin permission and tried to lock the user and reset the passw
 
 ## 6. Ransomware : 
 
-- Code that takes partial or complete control of the device or encrypt the data and lock out the user and demanding ransome to get the device's or data's full access.
+- Applications that takes partial or complete control of the device or encrypt the data and lock out the user and demanding ransome to get the device's or data's full access.
 
-- It will either encrypt the user's file write that in some where hidden and delete the original file or lock the device by creating an overlay by hiding the home and back button and will ask for ransom to give the access. 
+- It will either encrypt the user's file write that in somewhere hidden and delete the original file or lock the device by creating an overlay by hiding the home and back button and will ask for ransom to give the access. 
 
 Permission needed : 
 - BIND_DEVICE_ADMIN : To lock the device and reset password.
@@ -89,13 +87,13 @@ MMP cloaking :  App behaves differently for MMP tracking and it behaves differen
 
 ## 8. Spyware : 
 
-- Malicious Code which collects and exfiltrates user's PII(personal identifiable information) to the third party url
+- Malicious Code which collects and exfiltrates user's PII(personal identifiable information) to the third party url.
 - It can collect contacts, sms, call logs, calender, documents, camera and clipboard data.
 
 
 ## 9. Billing Fraud (Call/Toll) : 
 
-- Code which subscribes to the paid services or purchases without the users permission. 
+- Application which subscribes to the paid services or purchases without the users permission. 
 
 READ_SMS,
 RECEIVE_SMS,
