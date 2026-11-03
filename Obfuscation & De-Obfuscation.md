@@ -22,6 +22,15 @@
 
 **Tools** : 
 
-- JADX(Java to Dex Decompiler) : Open source command line GUI tool that converts android DEX and APK files into readable Java files.
+- JADX(Dex to Java Decompiler) : Open source command line GUI tool that converts android DEX and APK files into readable Java files.
+
+- Frida : Dynamic instrumentation app which helps to peek inside the running app and see hidden code when static decompilers fail.
+
+- Ghidra : Open source tool developed by NSA to read/deobfuscate raw C/C++ native code (like .so files) when standard Java decompilers can't reach it.
+
+
+# Packing  : 
+
+- Wrapping an app's code inside an encrypted shell to completely hide it from view until the app actually runs. Tools like Progaurd/R8, Dexgaurd can be used for this. 
 
 - 
